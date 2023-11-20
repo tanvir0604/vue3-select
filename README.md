@@ -20,7 +20,7 @@ $ npm i @shafkat/vue3-select
 
 ```sh
 $ import { Select } from "@shafkat/vue3-select";
-$ import "~@shafkat/vue3-select/dist/style.css"
+$ import "@shafkat/vue3-select/style.css"
 ```
 
 ### Use the component
@@ -44,6 +44,7 @@ Example:
 <script setup>
     import { ref } from "vue";
     import { Select } from "@shafkat/vue3-select";
+    import "@shafkat/vue3-select/style.css"
     let options = ref([
         {name: "Atlantic", value: "A"},
         {name: "Atlantica", value: "B"},

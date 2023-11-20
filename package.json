@@ -1,7 +1,7 @@
 {
-  "name": "@shafkat/vue3-pagination",
+  "name": "@shafkat/vue3-select",
   "description": "A select2 component for vue3",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "private": false,
   "author": {
     "name": "Md Shafkat Hussain Tanvir",
@@ -26,6 +26,7 @@
   ],
   "main": "./dist/vue3-select.umd.js",
   "module": "./dist/vue3-select.mjs",
+  "style": "./dist/style.css",
   "exports": {
     ".": {
       "import": "./dist/vue3-select.mjs",
